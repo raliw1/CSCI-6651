@@ -13,5 +13,5 @@ There are many best practices when it comes to hardening a web server. For examp
 
 Despite these and other defensive steps, a web server is inherently exposed as you must allow inbound connections from TCP ports 80 and 443 from all hosts on the internet.
 
-See http://csc-6651.noyage.com for more details.
+See http://csci-6651.noyage.com for more details.
 
