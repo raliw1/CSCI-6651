@@ -10,7 +10,7 @@ db = sqlite3.connect(mydb)
 c = db.execute('select ip from Hostile')
 for row in c:
     ip = c.fetchone()	# returns a tuple
-    blockip = "ipset add blacklist " + ip[0]
+    blockip = "ipset -quiet add blacklist " + ip[0]
     #print(blockip)
     ret = os.system(blockip)
     print(ret)
